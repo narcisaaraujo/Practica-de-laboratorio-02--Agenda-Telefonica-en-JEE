@@ -9,9 +9,9 @@ import java.sql.Statement;
 
 public class ContextJDBC {
 	private final String driverName="com.mysql.jdbc.Driver";
-	private final String conexionUrl="jdbc:mysql://localhost:3306/agenda";
-	private final String nombreusuario="agenda";
-	private final String contrasena="agenda";
+	private final String conexionUrl="jdbc:mysql://localhost:3306/contactos";
+	private final String nombreusuario="contactos";
+	private final String contrasena="egfa2209";
 	
 	private static ContextJDBC jdbc=null;
 	private Statement statement=null;
