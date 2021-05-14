@@ -29,7 +29,8 @@ public class JDBCUsuarioDAO extends JDBCGenericDAO<Usuario, Integer> implements 
 	public void create(Usuario usuario) {
 		// TODO Auto-generated method stub
 		jdbc.update("INSERT usuarios VALUES("
-		+usuario.getId()+",'"+usuario.getCedula()+"','"+usuario.getNombres()+"','"+usuario.getApellidos()+"','"+usuario.getCorreo()+"','"+usuario.getPassword()+"')");
+		+usuario.getId()+",'"+usuario.getCedula()+"','"+usuario.getNombres()+"','"+usuario.getApellidos()
+		+"','"+usuario.getCorreo()+"','"+usuario.getPassword()+"')");
 		
 		
 	}
@@ -100,6 +101,12 @@ public class JDBCUsuarioDAO extends JDBCGenericDAO<Usuario, Integer> implements 
 	public int contadorUsuario() {
 		// TODO Auto-generated method stub
 		return find().size();
+	}
+
+	@Override
+	public String buscarCedula(String correo) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	

@@ -9,4 +9,6 @@ public interface UsuarioDao extends GenericDAO<Usuario, Integer> {
 	//metodos que son aparte
 	public Usuario readLogin(String correo, String password);
 	public int contadorUsuario();
+	public String buscarCedula(String correo);
+
 }

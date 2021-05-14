@@ -9,7 +9,7 @@
 	<title>Login_Registro</title>
 	
 </head>
-<body style="background-image: url('bootstrap/img/intro.jpg'); background-repeat: no-repeat; background-size: cover;">
+<body style="background-image: url('bootstrap/img/fondo.jpg'); background-repeat: no-repeat; background-size: cover;">
 	<form action="Login" method="post">
 		<div class="container">
 			<div class="row">
@@ -18,7 +18,7 @@
 				
 				<div class="col-md-6 col-xs-12">
 					<div class="jumbotron">
-						<h1 class="text-center">Pagina Login</h1>
+						<h1 class="text-center">Login</h1>
 						<br>
 						<p class="text-denger">${error}</p>
 						<div class="form-group">
@@ -26,8 +26,8 @@
 							<input type="text" name="usercorreo" class="form-control" placeholder="User_correo">
 						</div>
 						<div class="form-group">
-							<label class="control-label" for="password">Password</label>
-							<input type="password" name="password" class="form-control" placeholder="Password">
+							<label class="control-label" for="password">Contraseña</label>
+							<input type="password" name="password" class="form-control" placeholder="contraseña">
 						</div>
 						<input type="checkbox" name="remember"> Recordame ?
 						<br><br>

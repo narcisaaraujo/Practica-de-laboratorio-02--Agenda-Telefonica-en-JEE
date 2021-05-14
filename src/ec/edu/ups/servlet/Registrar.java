@@ -56,7 +56,7 @@ public class Registrar extends HttpServlet {
 					request.getParameter("correo"), 
 					request.getParameter("password"));
 			usuarioDao.create(usuario);
-			response.sendRedirect("login.jsp");
+			response.sendRedirect("loginVista.jsp");
 			
 		} catch (Exception e) {
 			// TODO: handle exception

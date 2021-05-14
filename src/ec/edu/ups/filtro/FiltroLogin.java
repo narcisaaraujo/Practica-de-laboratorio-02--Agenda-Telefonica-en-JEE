@@ -39,7 +39,7 @@ public class FiltroLogin implements Filter {
 		HttpSession session= ((HttpServletRequest) request).getSession();
 		System.out.println(session.getAttribute("usercorreo"));
 		if(session.getAttribute("usercorreo")==null) {
-			((HttpServletResponse) response).sendRedirect("index.jsp");
+			((HttpServletResponse) response).sendRedirect("loginVista.jsp");
 		}else {
 			chain.doFilter(request, response);
 		}
