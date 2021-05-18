@@ -1,5 +1,5 @@
 # PracticaDeLaboratorio01-Servlets-JSPyJDBC
- ![alt text](/images/13.png)
+
 TÍTULO PRÁCTICA: Desarrollo de una aplicación JEE basado en Servlets, JSP y JDBC
 para el intercambio de datos en un modelo de tres capas aplicando los patrones diseño de software MVC y DAO
 
@@ -14,7 +14,8 @@ Se pide desarrollar una aplicación JEE que permita implementar una agenda telef
 Para lo cuál, se propone el siguiente diagrama de clases:
 
 
- ![alt text](/images/1.png)
+ ![image](https://user-images.githubusercontent.com/56529535/118607062-c347f500-b77d-11eb-955e-9fceb93a31a4.png)
+
  
  Los requerimientos funcionales del sistema son:
 •	Los usuarios pueden registrarse en la aplicación a través de un formulario de creación de cuentas.
@@ -28,8 +29,10 @@ o	Podrá llamar o enviar un correo electrónico desde el sistema usando aplicaci
 •	Los datos siempre deberán ser validados cuando se trabaje a través de formularios.
 De igual manera, se pide manejar sesiones y filtros para que existe seguridad en el sistema de agenda telefónica. Por lo qué, debe existir una parte pública 
 y una privada. La parte privada ha sido descrita en los requisitos antes planteados. Y la parte pública será una página index.html a través de la cuál podrán acceder al sistema. No obstante, se debe generar una página con la experiencia e interfaz de usuario apropiada, como la que se muestra a continuación:
- ![alt text](/images/2.png)
- Fig 3. Pagina pública index.html propuesta para el sistema de agenda telefónica
+
+![image](https://user-images.githubusercontent.com/56529535/118607218-f094a300-b77d-11eb-81a6-98bf646c26bd.png)
+
+ Fig 3. Página pública index.html propuesta para el sistema de agenda telefónica
  
  
 Finalmente, el sistema de agenda telefónica debe aplicar los patrones de diseño de software MVC y DAO, en donde, el modelo será clases POJOs de Java, la vista será JSP + JSTL y los controladores serán a través de DAOs y Servlets.
@@ -37,7 +40,8 @@ Finalmente, el sistema de agenda telefónica debe aplicar los patrones de diseñ
                         ACTIVIDADES POR DESARROLLAR
 1.	Crear un repositorio en GitHub con el nombre “Práctica de laboratorio 01: Servlets, JSP y JDBC
 
- ![alt text](/images/4.png)
+ ![image](https://user-images.githubusercontent.com/56529535/118607385-220d6e80-b77e-11eb-857a-3e5ca1da0dd9.png)
+
 
 2.	Desarrollar una aplicación con tecnología JEE para gestionar una agenda telefónica en la web.
 
