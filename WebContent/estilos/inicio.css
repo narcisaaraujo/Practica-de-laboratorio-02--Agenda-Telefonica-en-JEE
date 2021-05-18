@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+h1{
+	
+}
+
+img{
+	float:left;
+}
+#buscar{
+	float:left;
+	width: 50%;
+	margin-top:5%;
+	border-radius: 3%;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+span{
+	float: left;
+	margin-top: 5%;
+	width: 30px;
+	height: 30px;
+	margin-right: 20%
+		border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#iconos{
+	width: 30%;
+	
+}
+#cabecera{
+			border-width:2%;
+	border-style:solid;
+	border-color: red;
+	height:200px;
+}
+ul{
+  clear: both;
+  float: left;
+  width: 100%;
+  	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+li {
+   float: left;
+   width:15%;
+   	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#cuerpo{
+	height:400px;
+}
+
+#seccion1{
+	float:left;
+	width: 45%;
+	margin-left:5%;
+	height:180px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#seccion2{
+	float:left;
+	width:45%;
+	margin-left:5%;
+	height:180px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#pie{ 
+	margin-left:6%;
+	width:90%;
+	height:200px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#piep{
+		margin-left:6%;
+}
+#pie2{
+	width: 95%;
+	height:200px;
+}
+.img1{
+	margin-left: 7%;
+}
+#nombres{
+	width: 100%;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+	height:200px;
+}
+.imgl{
+	float:left;
+	margin-left: 20%;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#sfinal{
+	float:left;
+	margin-left:7%;
+	width: 25%;
+	height: 150px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#smedio{
+	float:left;
+	margin-left:7%;
+	width: 25%;
+	height: 150px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}
+#sinicio{
+	float:left;
+	margin-left:7%;
+	width: 25%;
+	height: 150px;
+	border-width:2%;
+	border-style:solid;
+	border-color: red;
+}

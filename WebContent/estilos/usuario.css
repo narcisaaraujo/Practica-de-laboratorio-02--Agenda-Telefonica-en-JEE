@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#usuario{
+	float:left;
+	border-width:2%;
+	border-style:solid;
+	border-color: blue;
+	width: 40%;
+}
+
+#telefono{
+	float: left;
+	margin-left:5%:
+	border-width:2%;
+	border-style:solid;
+	border-color: blue;
+	width: 40%;
+}

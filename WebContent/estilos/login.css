@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+#registro{
+	margin-left:25%;
+	margin-top:10%;
+	width:40%;
+	border-width:2%;
+	border-style:solid;
+	border-color: blue;
+}
+ p{
+ margin-left: 10%;
+ }
